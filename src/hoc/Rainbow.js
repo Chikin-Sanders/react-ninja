@@ -3,7 +3,6 @@ function Rainbow(WrappedComponent) {
     const randomColor = colours[Math.floor(Math.random() * 6)]
     const className = randomColor + '-text'
 
-    console.log(randomColor)
     return (props) => {
         return(
             <div className={className}>
